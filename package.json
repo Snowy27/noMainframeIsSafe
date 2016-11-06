@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "desription": "Card game about hacking",
   "main": "client/index.html",
-  "repository": "https://github.com/CollaboratingBuddies/noMainframeIsSafe",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/CollaboratingBuddies/noMainframeIsSafe.git"
+  },
   "author": "Collaborating Buddies",
   "license": "MIT",
   "dependencies": {
