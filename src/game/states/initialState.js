@@ -3,7 +3,7 @@
 var state = {
     init: function() {
 
-        var string = 'Welcome to the NoMainframeIsSafe!',
+        var string = 'Welcome to the No Mainframe Is Safe!',
             style = { font: '24px Arial', fill: '#fff', align: 'center'},
             text = this.game.add.text(this.world.centerX, this.world.centerY, string, style);
 
