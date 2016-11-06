@@ -86,7 +86,7 @@
 /* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\nvar states = __webpack_require__(8);\n\nvar game = new Phaser.Game(\n    800,\n    480,\n    Phaser.AUTO,\n    'game',\n    states.initialState\n);\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/game/index.js\n// module id = 7\n// module chunks = 0\n//# sourceURL=webpack:///./src/game/index.js?");
+	eval("'use strict';\n\nvar states = __webpack_require__(8),\n    game;\n\ngame = new Phaser.Game(\n    800,\n    480,\n    Phaser.AUTO,\n    'game',\n    states.initialState\n);\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/game/index.js\n// module id = 7\n// module chunks = 0\n//# sourceURL=webpack:///./src/game/index.js?");
 
 /***/ },
 /* 8 */
@@ -98,7 +98,7 @@
 /* 9 */
 /***/ function(module, exports) {
 
-	eval("'use strict';\n\nvar state = {\n    init: function() {\n\n        var text = 'Phaser Version ' + Phaser.VERSION + ' works!',\n            style = { font: '24px Arial', fill: '#fff', align: 'center'};\n        var t = this.game.add.text(this.world.centerX, this.world.centerY, text, style);\n        t.anchor.setTo(0.5, 0.5);\n\n    },\n    preload: function() {\n        // STate preload logic goes here\n    },\n    create: function(){\n      // State create logic goes here\n    },\n    update: function() {\n        // State Update Logic goes here.\n    }\n};\n\nmodule.exports = state;\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/game/states/initialState.js\n// module id = 9\n// module chunks = 0\n//# sourceURL=webpack:///./src/game/states/initialState.js?");
+	eval("'use strict';\n\nvar state = {\n    init: function() {\n\n        var string = 'Welcome to the NoMainframeIsSafe!',\n            style = { font: '24px Arial', fill: '#fff', align: 'center'},\n            text = this.game.add.text(this.world.centerX, this.world.centerY, string, style);\n\n        text.anchor.setTo(0.5, 0.5);\n\n    },\n    preload: function() {\n        // STate preload logic goes here\n    },\n    create: function() {\n        // State create logic goes here\n    },\n    update: function() {\n        // State Update Logic goes here.\n    }\n};\n\nmodule.exports = state;\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/game/states/initialState.js\n// module id = 9\n// module chunks = 0\n//# sourceURL=webpack:///./src/game/states/initialState.js?");
 
 /***/ }
 /******/ ]);

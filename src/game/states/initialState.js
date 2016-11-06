@@ -3,7 +3,7 @@
 var state = {
     init: function() {
 
-        var string = 'Phaser Version ' + Phaser.VERSION + ' works!',
+        var string = 'Welcome to the NoMainframeIsSafe!',
             style = { font: '24px Arial', fill: '#fff', align: 'center'},
             text = this.game.add.text(this.world.centerX, this.world.centerY, string, style);
 
