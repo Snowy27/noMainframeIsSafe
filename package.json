@@ -1,0 +1,22 @@
+{
+  "name": "NoMainframeIsSafe",
+  "version": "1.0.0",
+  "desription": "Card game about hacking",
+  "main": "client/index.html",
+  "repository": "https://github.com/CollaboratingBuddies/noMainframeIsSafe",
+  "author": "Collaborating Buddies",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "expose-loader": "^0.7.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-webpack": "^1.0.18",
+    "jscs": "^3.0.7",
+    "jshint-junit-reporter": "^0.2.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
