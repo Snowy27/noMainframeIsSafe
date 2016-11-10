@@ -1,4 +1,4 @@
-matchmaking
+## matchmaking
 
 1. API request to find opponent
   - /api/v1/game/find
@@ -42,7 +42,7 @@ matchmaking
 }
 ```
 
-game communication
+## game communication
 
 - connect to server
   - kick connection if no game join command is received within 10 seconds
@@ -106,6 +106,12 @@ Server response actions:
 
 
 
-card settings
+## card settings
 - immediate_use: Boolean
 - sleep_on_play: Boolean
+- title: String
+- card_id: Number
+
+## deck settings
+- title: String
+- cards: [Number]
