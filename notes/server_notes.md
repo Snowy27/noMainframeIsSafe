@@ -8,7 +8,7 @@ matchmaking
 
 2. Services will be listening to changes in matchmaking obj
 
-
+```
 {
     availablePlayers: [
         {
@@ -40,7 +40,7 @@ matchmaking
         }
     }
 }
-
+```
 
 game communication
 
