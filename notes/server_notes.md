@@ -91,8 +91,13 @@ Server response actions:
   - if card is an immediate/buff use card, respond with effects to all users
   - if card is to be played in the field, respond with card in the field to all users
     - if card is to be marked as sleeping till next turn, mark as such
-* in attaching a card
+* in attacking a card
   - validate that game_card_id is in the field and isn't sleeping
+  - validate card can attack target card
+  - attack target and respond with result on effects to all users
+* end turn
+  - increment turn count
+  - command next player to start their turn
 
 
 
